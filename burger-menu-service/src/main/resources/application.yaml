@@ -4,7 +4,7 @@ spring:
     name: burger-menu-service
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/burgerhome_menu
+    url: jdbc:postgresql://localhost:5432g/burgerhome_menu
     username: postgres
     password:
     driver-class-name: org.postgresql.Driver
