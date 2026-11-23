@@ -63,7 +63,8 @@ public class FoodOrder {
         this.totalPrice = totalPrice;
     }
 
-    public String getStatus() {
+    public String getStatus()
+    {
         return status;
     }
 
