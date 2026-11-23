@@ -1,0 +1,29 @@
+
+spring:
+  application:
+    name: burger-order-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/burgerhome_order
+    username: postgres
+    password:
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8082
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+  instance:
+    prefer-ip-address: true
